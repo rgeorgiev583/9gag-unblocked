@@ -26,10 +26,10 @@
 		
 		var img = document.createElement("img");
 		img.class = "badge-item-img";
-		img.src = "http://d24w6bsrhbeh9d.cloudfront.net/photo/" + id + "_460sa.gif";
+		img.src = "http://img-9gag-fun.9cache.com/photo/" + id + "_460sa.gif";
 		img.onerror = function() {
 			this.onerror = null;
-			this.src = "http://d24w6bsrhbeh9d.cloudfront.net/photo/" + id + "_700b.jpg";
+			this.src = "http://img-9gag-fun.9cache.com/photo/" + id + "_700b.jpg";
 		};
 		
 		parent.innerHTML = "";
